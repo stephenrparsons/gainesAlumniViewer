@@ -28,7 +28,6 @@ function initMap() {
 	    marker.addListener('click', (openInfoWindow(marker, data[i])));
 	    markers.push(marker);
 	}
-	// markerCluster = new MarkerClusterer(map, markers);
     }
 
     function openInfoWindow(marker, personInfo) {
